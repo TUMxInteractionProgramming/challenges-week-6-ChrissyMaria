@@ -392,6 +392,9 @@ li.selected {
     right: 0;
     bottom: 0;
 }
+.nearlyDone{
+    color: #3F51B5;
+}
 
 button {
     /* #9 #btns #all default button style */
@@ -403,7 +406,7 @@ button {
     margin: 8px;
 
     background-color: white;
-    text-color: black;
+    color: black;
     border: none;
 
     text-transform: uppercase;

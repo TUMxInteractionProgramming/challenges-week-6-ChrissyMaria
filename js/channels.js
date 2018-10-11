@@ -52,3 +52,13 @@ var octoberfest = {
     messages : []           // #10 #message s property in #chl object
 
 };
+
+var dummy = {
+    name: "#Dummy",
+    createdOn: new Date(2016, 08, 25), /* month 0 is jan. */
+    createdBy: "vocally.clearly.crawled",
+    starred: false,
+    expiresIn: 60,
+    messageCount: 321,
+    messages : []  
+}
