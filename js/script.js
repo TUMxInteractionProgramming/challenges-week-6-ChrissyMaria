@@ -37,9 +37,6 @@ $(document).keypress(function(e) {
  */
 $(document).ready(function() {
 
-    //functions from onload 
-    listChannels(compareNew);
-    loadEmojis();
     var updating = setInterval(function() {
         console.log('Updating message elements');
         $.each(currentChannel.messages, function(index, item) {
@@ -47,6 +44,10 @@ $(document).ready(function() {
             $(element).empty().text(UpdateTime(this) + " min. left");
         });
     }, 10000); //every ten seconds 
+    
+    //functions from onload 
+    listChannels(compareNew);
+    loadEmojis();
 
     /* start the external action and say hello */
     console.log("App is alive");
